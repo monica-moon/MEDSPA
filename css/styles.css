@@ -787,11 +787,12 @@ display:inline-block;margin-top:10px;color:var(--charcoal-muted);transition:colo
 .about-stat-label{font-size:9px}
 
 /* treatments grid */
-.treatments-grid{grid-template-columns:repeat(2,1fr);gap:10px}
-.treatment-card{height:280px}
-.treatment-card-info{padding:14px}
-.treatment-card-info h3{font-size:16px}
-.treatment-card-info p{font-size:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.treatments-grid{grid-template-columns:1fr;gap:16px;max-width:480px;margin:0 auto}
+.treatment-card{height:260px}
+.treatment-card-info{padding:20px}
+.treatment-card-info h3{font-size:18px}
+.treatment-card-info p{font-size:13px;max-height:none;opacity:1}
+.treatment-card-info .card-link{opacity:1}
 
 /* treatment detail */
 .td-inner{grid-template-columns:1fr!important;gap:0}
