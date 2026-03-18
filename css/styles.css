@@ -772,10 +772,11 @@ display:inline-block;margin-top:10px;color:var(--charcoal-muted);transition:colo
 .nav.scrolled{padding:16px 24px}
 
 /* hero */
-.hero{height:auto;min-height:auto;padding:130px 0 80px}
+.hero{height:auto;min-height:auto;padding:130px 0 80px;flex-direction:column}
 .hero-buttons{flex-direction:column;gap:12px;align-items:center}
 .hero-buttons .btn-primary,.hero-buttons .btn-secondary{width:100%;max-width:280px;text-align:center;padding:14px 24px;font-size:11px}
-.hero-badge{right:auto;left:50%;transform:translateX(-50%);top:8%}
+.hero-badge{position:static;transform:none;margin-bottom:24px;opacity:0}
+.hero-badge.visible{transform:none}
 .hero-badge-shape{width:120px;height:120px}
 .hero-badge-label{font-size:6px;letter-spacing:3px}
 .hero-badge-title{font-size:7px;padding:0 12px}
